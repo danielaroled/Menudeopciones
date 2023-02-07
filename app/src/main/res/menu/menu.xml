@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mnuNuevo"
+        android:title="Nuevo"
+        android:orderInCategory="100"
+        android:icon="@drawable/iconadd"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/mnuBuscar"
+        android:title="Buscar"
+        android:orderInCategory="101"
+        android:icon="@drawable/iconadd"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/mnuSetting"
+        android:title="Config"
+        android:orderInCategory="102"
+        android:icon="@drawable/iconadd"
+        app:showAsAction="always"></item>
+</menu>

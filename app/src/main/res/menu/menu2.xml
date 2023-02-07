@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_subheader2"
+            android:icon="@drawable/icon_imbox"
+            android:title="Todos los Recibidos" />"
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/icon_prin"
+            android:title="Principal"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/icon_promo"
+            android:title="Promociones"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/icon_social"
+            android:title="Social"/>
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Todas las etiquetas">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/icon_destacado"
+                android:title="Destacados"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/icon_relog"
+                android:title="Pospuestos"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/icon_importante"
+                android:title="Importante"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/icon_send"
+                android:title="Enviados"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/icon_sendrelog"
+                android:title="Programados"/>
+            <item
+                android:id="@+id/menu_opcion_6"
+                android:icon="@drawable/icon_borrador"
+                android:title="Borrador"/>
+            <item
+                android:id="@+id/menu_opcion_7"
+                android:icon="@drawable/icon_email"
+                android:title="Todos"/>
+            <item
+                android:id="@+id/menu_opcion_8"
+                android:icon="@drawable/icon_spam"
+                android:title="Spam"/>
+            <item
+                android:id="@+id/menu_opcion_19"
+                android:icon="@drawable/icon_basurero"
+                android:title="Papelera"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_subheader3"
+        android:title="Apps de Google">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_10"
+                android:icon="@drawable/icon_calendario"
+                android:title="Calendario"/>
+            <item
+                android:id="@+id/menu_opcion_11"
+                android:icon="@drawable/icon_contacto"
+                android:title="Contacto"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_subheader5"
+        android:title="Ayuda"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_9"
+                android:icon="@drawable/icon_config"
+                android:title="Configuración"/>
+            <item
+                android:id="@+id/menu_opcion_22"
+                android:icon="@drawable/icon_signo"
+                android:title="Ayuda y comentarios"/>
+
+        </menu>
+    </item>
+
+</menu>
